@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    <title>Relink</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <app-loader></app-loader>
     <section class="container">
     <h1>Relink.</h1>
 
-    <input type="text" placeholder="Paste your URL here">
-       <small> Share your new home. Not the price.</small>
+    <app-url-input></app-url-input>
+        Share your new home. Not the price.
        <div class="gallery">
         <figure>
             <img src="https://photos.zillowstatic.com/fp/705179fc9089f953b20c7f2482236b03-p_d.webp" alt="Image 1">

@@ -1,4 +1,6 @@
 import { Scraper } from './js/scraper.js';
+import './js/components/loader.js';
+import './js/components/urlInput.js';
 
 class ReLink {
     constructor() {
